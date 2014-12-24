@@ -10,6 +10,8 @@
 - http://android-ui-utils.googlecode.com/hg-history/bdd9a37844eb0dc7bd14e348f5b44fbabbc54d3c/asset-studio/dist/nine-patches.html
 - http://www.fontsquirrel.com/fonts/roboto
 - http://iconmonstr.com/
+- https://developer.android.com/design/downloads/index.html
+- https://github.com/google/material-design-icons/releases/tag/1.0.0
 
 =====================================
 ###java 1.7 path
