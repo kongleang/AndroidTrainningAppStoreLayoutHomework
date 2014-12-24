@@ -2,6 +2,7 @@ package com.example.pondd.androidtrainningappstorelayouthomework;
 
 import android.content.Context;
 import android.util.AttributeSet;
+import android.view.LayoutInflater;
 import android.widget.FrameLayout;
 
 /**
@@ -24,6 +25,8 @@ public class CustomViewGroup extends FrameLayout {
         initInflate();
     }
     private void initInflate(){
-
+        LayoutInflater inflater = (LayoutInflater)getContext()
+                .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        inflater.inflate(R.layout.layout_view_layout, this);
     }
 }
